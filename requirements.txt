@@ -1,0 +1,8 @@
+streamlit
+cohere
+python-dotenv
+numpy
+faiss-cpu
+PyPDF2
+tensorflow
+tensorflow-hub
