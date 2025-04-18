@@ -87,7 +87,7 @@ streamlit run QA_bot.py
 ### DocumentProcessor
 - Handles PDF text extraction
 - Splits documents into manageable chunks
-- Generates embeddings using Sentence Transformers
+- Generates embeddings using Universal Sentence Encoder
 
 ### FAISSIndex
 - Manages vector storage and retrieval
@@ -127,7 +127,7 @@ print("Contexts:", response["contexts"])
 
 ## 📊 Performance
 
-- Embedding Dimension: 384 (all-MiniLM-L6-v2)
+- Embedding Dimension: 512 (Universal Sentence Encoder)
 - Average Query Time: ~100ms
 - Support for Multiple Documents
 - Efficient Memory Usage with FAISS
