@@ -14,6 +14,7 @@ class DocumentProcessor:
         # Import TensorFlow modules locally to avoid conflicts
         import tensorflow as tf
         import tensorflow_hub as hub
+        tf.config.set_visible_devices([], 'GPU')
         
         # Load Universal Sentence Encoder from TF Hub
         self.encoder = hub.load("https://tfhub.dev/google/universal-sentence-encoder/4")
