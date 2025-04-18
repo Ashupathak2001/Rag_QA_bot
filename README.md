@@ -16,7 +16,7 @@ A Retrieval-Augmented Generation (RAG) based Question Answering system that uses
 
 - **Frontend**: Streamlit
 - **Document Processing**: PyPDF2
-- **Embedding Generation**: Sentence-Transformers (all-MiniLM-L6-v2)
+- **Embedding Generation**: Embeddings are generated using Universal Sentence Encoder from tensorflow_hub.
 - **Vector Storage**: FAISS (Facebook AI Similarity Search)
 - **Answer Generation**: Cohere API
 - **Data Persistence**: Local file system (JSON + FAISS index)
